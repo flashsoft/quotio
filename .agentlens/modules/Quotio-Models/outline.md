@@ -4,26 +4,31 @@
 
 Symbol maps for 3 large files in this module.
 
-## Quotio/Models/CustomProviderModels.swift (546 lines)
+## Quotio/Models/CustomProviderModels.swift (623 lines)
 
 | Line | Kind | Name | Visibility |
 | ---- | ---- | ---- | ---------- |
 | 14 | enum | CustomProviderType | (internal) |
-| 148 | struct | CustomAPIKeyEntry | (internal) |
-| 179 | struct | ModelMapping | (internal) |
-| 206 | struct | CustomHeader | (internal) |
-| 225 | struct | CustomProvider | (internal) |
-| 277 | method | init | (internal) |
-| 293 | fn | encode | (internal) |
-| 311 | fn | validate | (internal) |
-| 349 | mod | extension CustomProvider | (internal) |
-| 351 | fn | toYAMLBlock | (internal) |
-| 365 | fn | generateOpenAICompatibilityYAML | (private) |
-| 394 | fn | generateClaudeCompatibilityYAML | (private) |
-| 423 | fn | generateGeminiCompatibilityYAML | (private) |
-| 451 | fn | generateCodexCompatibilityYAML | (private) |
-| 468 | fn | generateGlmCompatibilityYAML | (private) |
-| 498 | fn | toYAMLSections | (internal) |
+| 148 | fn | normalizedStoredBaseURL | (internal) |
+| 169 | fn | apiBaseURL | (internal) |
+| 176 | fn | modelsEndpointURL | (internal) |
+| 187 | struct | CustomAPIKeyEntry | (internal) |
+| 218 | struct | ModelMapping | (internal) |
+| 245 | struct | CustomHeader | (internal) |
+| 264 | struct | CustomProvider | (internal) |
+| 317 | method | init | (internal) |
+| 334 | fn | encode | (internal) |
+| 352 | fn | validate | (internal) |
+| 390 | mod | extension CustomProvider | (internal) |
+| 404 | fn | toYAMLBlock | (internal) |
+| 418 | fn | generateOpenAICompatibilityYAML | (private) |
+| 449 | fn | generateClaudeCompatibilityYAML | (private) |
+| 480 | fn | generateGeminiCompatibilityYAML | (private) |
+| 503 | fn | generateCodexCompatibilityYAML | (private) |
+| 522 | fn | generateGlmCompatibilityYAML | (private) |
+| 544 | fn | appendHeadersYAML | (private) |
+| 563 | fn | escapeYAMLString | (private) |
+| 575 | fn | toYAMLSections | (internal) |
 
 ## Quotio/Models/MenuBarSettings.swift (632 lines)
 
